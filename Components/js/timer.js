@@ -181,7 +181,7 @@
   var currentYear = new Date().getFullYear();
 
   new FlipClock(document.getElementById('flipclock-1'), {
-    endDate: new Date(currentYear, 02, 01),
+    endDate: new Date(2024, 2, 6), 
     labels: {
         days: 'Days',
         hours: 'Hours',

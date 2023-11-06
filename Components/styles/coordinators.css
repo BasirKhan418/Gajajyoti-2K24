@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url(../../Pictures/herobg2.jpg);
+    background-image: url(https://res.cloudinary.com/dawzncoau/image/upload/v1699179111/75291_cjqmtw.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,7 +21,7 @@ body {
 }
 
 .cta {
-    background-color: white;
+    background-color: rgb(246, 246, 251);
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 10px;
@@ -34,15 +34,16 @@ body {
 
 
 .cta:hover {
-    background-color: #e10a34;
+    background-color: #0a27e1;
     color: white;
+    border: 2px solid white;
 
 
 }
 
 .coordinatorscard{
-    background-color: bisque;
-    box-shadow: 0.4vw 0.4vw #e10a34;
+    background-color: rgb(5, 28, 241);
+    box-shadow: 0.4vw 0.4vw #e73904;
 }
 
 .herotext{

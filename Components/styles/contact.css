@@ -4,39 +4,12 @@
 }
 
 .fontBold {
-    background-image: url(../../Pictures/herobg4.jpg);
+    background-image: url(https://res.cloudinary.com/dawzncoau/image/upload/v1699179111/75291_cjqmtw.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Poppins', sans-serif;
     color: black;
     font-weight: 900;
-}
-
-.namecard {
-    width: 20vh;
-    height: 20vh;
-    margin: 1.5vw 2vw;
-    background-color: bisque;
-    box-shadow: 0.5vw 0.5vw 0.5vw #e10a34;
-    text-align: center;
-}
-
-@media screen and (Max-Width: 768px) {
-    .namecard{
-        width: auto;
-        height: 110vw;
-        margin: 2vw 4vw;
-    }
-
-}
-
-@media screen and (min-width: 768px) {
-    .namecard{
-        width: auto;
-        height: 26vw;
-        margin: 2vw 4vw;
-        
-    }
-
+    background-clip: calc(100% - 1px);
 }

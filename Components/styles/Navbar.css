@@ -11,7 +11,7 @@ Nav {
     Font-Family: "Montserrat", "Sans-Serif";
     Height: 70px;
     /* Background-Color:rgba(255, 0, 0, 0.4); */
-    Background-Color:#e10a34;
+    Background-Color:#0a11e1;
     width: auto;
     Padding: 0 1%;
     display: flex;
@@ -47,7 +47,7 @@ Nav {
     Display: Block;
     Padding: 1em;
     Font-Size: 16px;
-    Font-Weight: Bold;
+    Font-Weight: 25;
     Color: white;
     Text-Decoration: None;
     Position: Relative;
