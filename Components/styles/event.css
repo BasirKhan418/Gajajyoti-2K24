@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
 
 .fontBold{
-    background-image: url(https://res.cloudinary.com/dawzncoau/image/upload/v1699179111/75291_cjqmtw.jpg);
+    background-image: url(https://res.cloudinary.com/dawzncoau/image/upload/v1700915631/background-with-mandala-design_1639-13026_nzf1zj.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,7 +37,7 @@
 
 .coordinatorscard{
     background-color: rgb(31, 8, 237);
-    box-shadow: 0.4vw 0.4vw #e10a0d;
+    box-shadow: 0.4vw 0.4vw #fbf703;
     width: 100%;
 }
 

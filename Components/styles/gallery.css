@@ -8,7 +8,7 @@
 }
 
 .fontBold{
-  background-image: url(../../Pictures/herobg5.jpg);
+  background-image: url(https://res.cloudinary.com/dawzncoau/image/upload/v1700915631/background-with-mandala-design_1639-13026_nzf1zj.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,7 +35,9 @@
     vertical-align: middle;
     width: 100%;
   }
-
+img:hover{
+  scale: 1.2;
+}
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
     .column {
