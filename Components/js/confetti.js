@@ -1,4 +1,5 @@
 var confettiPlayers = [];
+var stopConfettiTimeout;
 
 function makeItConfetti() {
   var confetti = document.querySelectorAll('.confetti');
@@ -22,6 +23,12 @@ function makeItConfetti() {
 
     confettiPlayers.push(player);
   }
+  // Stop the confetti after 5 seconds
+  stopConfettiTimeout = setTimeout(stopConfetti, 5000);
+}
+
+function stopConfetti() {
+  confettiPlayers.forEach(player => player.cancel());
 }
 
 makeItConfetti();

@@ -4,7 +4,7 @@
     var updateTimeout;
     _this.el = el;
     _this.config = Object.assign({
-      endDate: new Date((new Date().getFullYear()),03,01),
+      endDate: new Date((new Date().getFullYear()), 2, 6), // March 6, 2024
       labels: {
         days: 'Days',
         hours: 'Hours',
@@ -25,7 +25,22 @@
     addObserver();
 
     function start() {
-      _this.current = getTimeUntil(config.endDate.getTime(), new Date().getTime());
+      var now = new Date().getTime();
+      var endDate = _this.config.endDate.getTime();
+
+      if (endDate < now) {
+        _this.current = {
+          d: "000",
+          h: "00",
+          m: "00",
+          s: "00"
+        };
+        updateView();
+        stop();
+        return;
+      }
+
+      _this.current = getTimeUntil(endDate, now);
       updateView();
       clearTimeout(updateTimeout);
       updateTimeout = setTimeout(start, 500);
@@ -175,18 +190,15 @@
     };
   }
 
-
   //================================================
   // Initialise the examples
-  var currentYear = new Date().getFullYear();
-
   new FlipClock(document.getElementById('flipclock-1'), {
-    endDate: new Date(2024, 2, 6), 
+    endDate: new Date(2024, 2, 6), // March 6, 2024
     labels: {
-        days: 'Days',
-        hours: 'Hours',
-        minutes: 'Minutes',
-        seconds: 'Seconds'
+      days: 'Days',
+      hours: 'Hours',
+      minutes: 'Minutes',
+      seconds: 'Seconds'
     }
   });
 
