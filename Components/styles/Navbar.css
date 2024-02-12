@@ -25,7 +25,9 @@ Nav {
     Align-Items: Center;
     Font-Size: 20px;
     Color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Lobster", sans-serif;
+    font-weight: bold;
+    font-style: normal;
   }
 
   Nav .Links {
