@@ -193,7 +193,7 @@
   //================================================
   // Initialise the examples
   new FlipClock(document.getElementById('flipclock-1'), {
-    endDate: new Date(2024, 2, 6), // March 6, 2024
+    endDate: new Date(2024, 2, 4), // March 6, 2024
     labels: {
       days: 'Days',
       hours: 'Hours',
